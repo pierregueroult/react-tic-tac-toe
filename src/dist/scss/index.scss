@@ -1,0 +1,26 @@
+:root {
+   --background-color: #010326;
+   --cross-accent-color: #CC0F0C;
+   --cross-dark-color: #7A1715;
+   --nought-accent-color: #30B862;
+   --nought-dark-color: #216B3C;
+   --placeholder-accent-color: #011640;
+   --placeholder-dark-color: #010440;
+}
+
+body {
+    background-color: var(--background-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    width: 100vw;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@import './Symbols', './Topbar', './Win';
